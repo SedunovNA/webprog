@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Пример веб-страницы</title>
+ </head>
+ <body>
+  <h1>Таблица</h1>
+  <table border="1"> 
+  <tr>
+    <th>№ п/п</th>
+    <th>Наименование товара</th>
+     <th>картинка</th>
+     <th>Количество</th>
+     <th>Цена за ед. изм., руб.</th>
+     <th>Стоимость, руб.</th>
+  </tr>
+  <tr>
+    <td rowspan="2">1.</td>
+    <td>Томаты свежие</td><td><img src="https://img.fonwall.ru/o/74/more-volna-solntse-priroda.jpg?route=mid&amp;h=750" width="20" height="22"</td><td>15,20</td><td>69,00</td><td>1048,80</td>
+  </tr>
+  <tr>
+    
+    <td>Огурцы свежие</td><td><img src="https://img.fonwall.ru/o/74/more-volna-solntse-priroda.jpg?route=mid&amp;h=750" width="20" height="22"</td><td>2,50</td><td>48,00</td><td>120,00</td>
+  </tr>
+  <tr>
+    <td colspan="5">ИТОГО:</td><td>1168,80</td>
+  </tr>
+</table>
+ </body>
+</html>
